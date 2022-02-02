@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>My Bois</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url("https://te.legra.ph/file/21fbc1a65a3345930611a.jpg");
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            -webkit-background-size: 100%;
+            -moz-background-size: 100%;
+            -o-background-size: 100%;
+        }
+
+        .container {
+            background-color: black;
+            width: 390px;
+            height: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: 50px;
+            transform: translate(-50%, -50%);
+            border-radius: 5px;
+            border: 2px solid red;
+            text-align: center;
+        }
+
+        .name {
+            margin-top: 10px;
+            color: white;
+        }
+
+        .btns {
+            display: flex;
+            margin-top: 35px;
+            margin-left: 15px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .fit {
+            display: flex;
+            position: absolute;
+            height: 35px;
+            width: 100%;
+        }
+
+        .fit2 {
+            display: flex;
+            margin-top: 80px;
+        }
+
+        .fit3 {
+            display: flex;
+            position: absolute;
+            margin-top: 160px;
+        }
+
+        .fit4 {
+            display: flex;
+            position: absolute;
+            margin-top: 240px;
+        }
+
+        .fit5 {
+            display: flex;
+            position: absolute;
+            margin-top: 320px;
+        }
+
+        .btn1 {
+            display: flex;
+            height: 35px;
+            width: 100px;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid red;
+            margin-right: 100px;
+            margin-left: 25px;
+        }
+
+        .btn1:hover,
+        .btn2:hover {
+            box-shadow: 0px 0px 16px 0px red;
+        }
+
+        .btn2 {
+            display: flex;
+            height: 35px;
+            width: 100px;
+            background-color: transparent;
+            border-radius: 20px;
+            border: 2px solid red;
+            text-align: center;
+            right: 0;
+            top: 0;
+        }
+
+        .more {
+            font-size: smaller;
+            text-decoration: none;
+            margin: auto;
+            font-family: 'Hind Madurai', sans-serif;
+            ;
+            color: red;
+        }
+
+        @media only screen and (max-width: 600px) {
+
+            .container {
+                width: 320px;
+            }
+
+            .btn1 {
+                margin-right: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="name">
+            <h2>My Bois</h2>
+        </div>
+        <div class="btns">
+            <div class="fit">
+                <div class="btn1">
+                    <a class="more" id="a" target="_blank">Ronin</a>
+                </div>
+                <div class="btn2">
+                    <a class="more" id="b" target="_blank">Beast</a>
+                </div>
+            </div>
+            <br>
+            <div class="fit2">
+                <div class="btn1">
+                    <a class="more" id="c" target="_blank">Sharique</a>
+                </div>
+                <div class="btn2">
+                    <a class="more" id="d" target="_blank">GodBoyX</a>
+                </div>
+            </div>
+            <br>
+            <div class="fit3">
+                <div class="btn1">
+                    <a class="more" id="e" target="_blank">Ap hacker</a>
+                </div>
+                <div class="btn2">
+                    <a class="more" id="f" target="_blank">Shadow</a>
+                </div>
+            </div>
+            <br>
+            <div class="fit4">
+                <div class="btn1">
+                    <a class="more" id="g" target="_blank">Rohit</a>
+                </div>
+                <div class="btn2">
+                    <a class="more" id="h" target="_blank">Jayant</a>
+                </div>
+            </div>
+            <div class="fit5">
+                <div class="btn1">
+                    <a class="more" id="i" target="_blank">Niles</a>
+                </div>
+                <div class="btn2">
+                    <a class="more" id="j" target="_blank">Sumit</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const name = ["Rndi", "Didi", "Babe", "Maam", "Darling", "Bhoot", "Baby", "Bnadi", "Wife", "Raper"];
+        $("#a").click(function () {
+            alert(name[0]);
+        });
+        $("#b").click(function () {
+            alert(name[1]);
+        });
+        $("#c").click(function () {
+            alert(name[2]);
+        });
+        $("#d").click(function () {
+            alert(name[3]);
+        });
+        $("#e").click(function () {
+            alert(name[4]);
+        });
+        $("#f").click(function () {
+            alert(name[5]);
+        });
+        $("#g").click(function () {
+            alert(name[6]);
+        });
+        $("#h").click(function () {
+            alert(name[7]);
+        });
+        $("#i").click(function () {
+            alert(name[8]);
+        });
+        $("#j").click(function () {
+            alert(name[9]);
+        });
+    </script>
+</body>
+
+</html>
