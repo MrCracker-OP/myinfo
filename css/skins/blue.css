@@ -45,6 +45,7 @@ body.light.contact .contactform textarea:focus,
 body.light.Chat .page-item.active .page-link,
 body.light.Chat .page-link:hover{
 	border: 1px solid #4169e1;
+	margin-top: 10px;
 }
 .Chat .post-thumb {
 	border-bottom: 5px solid #4169e1;
