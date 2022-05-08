@@ -33,6 +33,7 @@ body.light .header ul.icon-menu li.icon-box.active, body.light  .header ul.icon-
 .title-section hr,
 .portfolio .slideshow .carousel-indicators li.active {
 	background-color: #4169e1;
+	margin-top: 10px;
 }
 .contact .contactform input[type=text]:focus,
 .contact .contactform input[type=email]:focus,
@@ -45,7 +46,6 @@ body.light.contact .contactform textarea:focus,
 body.light.Chat .page-item.active .page-link,
 body.light.Chat .page-link:hover{
 	border: 1px solid #4169e1;
-	margin-top: 10px;
 }
 .Chat .post-thumb {
 	border-bottom: 5px solid #4169e1;
